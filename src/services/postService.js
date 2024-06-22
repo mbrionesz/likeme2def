@@ -1,5 +1,5 @@
 // Reemplazar por la URL de la API
-const URL_API = "http://localhost:3000/posts";
+const URL_API = "http://localhost:3001/posts";
 
 export const getPosts = async () => {
   const response = await fetch(URL_API);
